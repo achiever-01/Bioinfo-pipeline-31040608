@@ -1,5 +1,3 @@
-print("Starting bioinformatics pipeline")
-
 # Quality Control Module
 
 print("Running quality control")

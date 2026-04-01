@@ -24,3 +24,8 @@ def quality_control():
 
 quality_control()
 
+import os
+
+def validate_fastq(file):
+    if not os.path.exists(file):
+        raise FileNotFoundError("FASTQ file not found")

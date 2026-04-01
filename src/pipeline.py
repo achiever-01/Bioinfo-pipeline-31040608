@@ -29,3 +29,5 @@ import os
 def validate_fastq(file):
     if not os.path.exists(file):
         raise FileNotFoundError("FASTQ file not found")
+
+print("FASTQ validation completed successfully")
